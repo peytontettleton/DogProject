@@ -47,7 +47,7 @@ namespace DogProject
         }
 
 
-        public string getTag()
+        public string getTag()//https://exceptionnotfound.net/const-vs-static-vs-readonly-in-c-sharp-applications/
         {
 
             string hisOrher = getGender(gender).ToString();
