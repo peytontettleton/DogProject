@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+/using System;
 
 namespace DogProject
 {
@@ -6,8 +7,18 @@ namespace DogProject
     {
         static void Main(string[] args)
         {
-            // Keep the console window open in debug mode. Push key to exit.
-            Console.WriteLine("Press any key to exit.");
+            public enum Gender
+        {
+            Male, Female
+        };
+
+        public string name;
+        public string owner;
+        public int age;
+        public Gender gender;
+
+        // Keep the console window open in debug mode. Push key to exit.
+        Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
 
         }
