@@ -1,5 +1,4 @@
-﻿
-/using System;
+﻿using System;
 
 namespace DogProject
 {
@@ -23,9 +22,27 @@ namespace DogProject
             }
             return "Her";
         }
+        public Dog(string name1, string owner1, int age1, Gender gender1)
+        {
+            name = name1;
+            owner = owner1;
+            age = age1;
+            gender = gender1;
+        }
 
-        // Keep the console window open in debug mode. Push key to exit.
-        Console.WriteLine("Press any key to exit.");
+        public void bark(int num)
+        {
+            for (int i = 0; i < num; i++)
+            {
+                Console.Write("Woof!");
+
+            }
+            Console.WriteLine();
+        }
+
+
+
+            Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
 
         static void Main(string[] args)
