@@ -2,14 +2,14 @@
 
 namespace DogProject
 {
-    class Program
+    class Program //https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/classes-and-objects
     {
-        public enum Gender
+        public enum Gender //https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/enums
         {
             Male, Female
         };
 
-        public string name;
+        public string name; //https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types-and-variables
         public string owner;
         public int age;
         public Gender gender;
