@@ -1,0 +1,11 @@
+C:\Users\Admin\Documents\GitHub\DogProject\DogProject\DogProject\obj\Debug\netcoreapp2.1\DogProject.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\DogProject\DogProject\DogProject\obj\Debug\netcoreapp2.1\DogProject.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\DogProject\DogProject\DogProject\obj\Debug\netcoreapp2.1\DogProject.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\DogProject\DogProject\DogProject\obj\Debug\netcoreapp2.1\DogProject.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\DogProject\DogProject\DogProject\bin\Debug\netcoreapp2.1\DogProject.deps.json
+C:\Users\Admin\Documents\GitHub\DogProject\DogProject\DogProject\bin\Debug\netcoreapp2.1\DogProject.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\DogProject\DogProject\DogProject\bin\Debug\netcoreapp2.1\DogProject.runtimeconfig.dev.json
+C:\Users\Admin\Documents\GitHub\DogProject\DogProject\DogProject\bin\Debug\netcoreapp2.1\DogProject.dll
+C:\Users\Admin\Documents\GitHub\DogProject\DogProject\DogProject\bin\Debug\netcoreapp2.1\DogProject.pdb
+C:\Users\Admin\Documents\GitHub\DogProject\DogProject\DogProject\obj\Debug\netcoreapp2.1\DogProject.dll
+C:\Users\Admin\Documents\GitHub\DogProject\DogProject\DogProject\obj\Debug\netcoreapp2.1\DogProject.pdb

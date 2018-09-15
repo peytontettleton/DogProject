@@ -2,7 +2,7 @@
 
 namespace DogProject
 {
-    class Program //https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/classes-and-objects
+    class Dog //https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/classes-and-objects
     {
         public enum Gender //https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/enums
         {
@@ -22,6 +22,9 @@ namespace DogProject
             }
             return "Her";
         }
+
+
+
         public Dog(string name1, string owner1, int age1, Gender gender1)
         {
             name = name1;
@@ -29,6 +32,9 @@ namespace DogProject
             age = age1;
             gender = gender1;
         }
+
+
+
 
         public void bark(int num)
         {
@@ -41,19 +47,36 @@ namespace DogProject
         }
 
 
+        public string getTag()
+        {
 
-            Console.WriteLine("Press any key to exit.");
-            Console.ReadKey();
+            string hisOrher = getGender(gender).ToString();
+
+            string heOrShe;
+
+            if (hisOrher == "His")
+            {
+                heOrShe = "he";
+            }
+            else
+            {
+                heOrShe = "she";
+            }
+            return "If lost, call " + owner + ". " + hisOrher + " name is " + name + " and " + heOrShe + " is " + age + " year old.";
+        }
 
         static void Main(string[] args)
         {
-            Dog puppy = Dog("Orion", "Shawn", 1, Gender.Male);  // create object instance
+            Dog puppy =new Dog("Orion", "Shawn", 1, Gender.Male);  // create object instance
             puppy.bark(3); // output: Woof!Woof!Woof!
             Console.WriteLine(puppy.getTag()); // output: If lost, call Shawn. His name is Orion and he is 1 year old.
 
-            Dog myDog = Dog("Lileu", "Dale", 4, Gender.Female);  // create object instance
+            Dog myDog =new Dog("Lileu", "Dale", 4, Gender.Female);  // create object instance
             myDog.bark(1); // output: Woof!
             Console.WriteLine(myDog.getTag()); // output: If lost, call Dale. Her name is Lileu and she is 4 years old.
+
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
 
         }
     }
